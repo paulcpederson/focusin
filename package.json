@@ -1,0 +1,31 @@
+{
+  "name": "focusin",
+  "description": "Focusin/focusout polyfill for Firefox",
+  "version": "1.0.0",
+  "author": "Paul C Pederson <paul.c.pederson@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/paulcpederson/focusin/issues"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.1",
+    "standard": "*",
+    "uglifyjs": "^2.4.10"
+  },
+  "homepage": "https://github.com/paulcpederson/focusin",
+  "keywords": [
+    "firefox",
+    "focusin",
+    "focusout",
+    "polyfill"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulcpederson/focusin.git"
+  },
+  "scripts": {
+    "test": "standard",
+    "js": "browserify index.js | uglifyjs > dist/focusin.min.js"
+  }
+}
