@@ -19,13 +19,13 @@
     "polyfill"
   ],
   "license": "ISC",
-  "main": "index.js",
+  "main": "focusin.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/paulcpederson/focusin.git"
   },
   "scripts": {
     "test": "standard",
-    "js": "browserify index.js | uglifyjs > dist/focusin.min.js"
+    "js": "browserify focusin.js | uglifyjs > focusin.min.js"
   }
 }

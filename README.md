@@ -10,7 +10,7 @@
 npm install focusin
 ```
 
-Or, just copy `dist/focusin.min.js` into your project if you don't use browserify.
+Or, just copy `focusin.min.js` into your project if you don't use browserify.
 
 ## Usage
 
@@ -30,3 +30,6 @@ Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md
 
 [npm-image]: https://img.shields.io/npm/v/focusin.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/focusin
+
+> Project template generated with [module-init](https://www.npmjs.com/package/module-init).
+
