@@ -28,8 +28,7 @@ Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md
 
 [ISC](LICENSE.md)
 
+Project template generated with [module-init](https://www.npmjs.com/package/module-init).
+
 [npm-image]: https://img.shields.io/npm/v/focusin.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/focusin
-
-> Project template generated with [module-init](https://www.npmjs.com/package/module-init).
-
