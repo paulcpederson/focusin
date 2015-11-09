@@ -17,7 +17,7 @@ Or, just copy `focusin.min.js` into your project if you don't use browserify.
 focusin is a polyfill, so you don't need to assign it to a variable, just require it. Obviously meant for browser environments and not Node.js.
 
 ```js
-require('focusin')
+require('focusin')();
 ```
 
 ## Contributing
