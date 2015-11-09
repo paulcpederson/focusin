@@ -1,7 +1,7 @@
 {
   "name": "focusin",
   "description": "Focusin/focusout polyfill for Firefox",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Paul C Pederson <paul.c.pederson@gmail.com>",
   "bugs": {
     "url": "https://github.com/paulcpederson/focusin/issues"
@@ -26,6 +26,6 @@
   },
   "scripts": {
     "test": "standard",
-    "js": "browserify focusin.js | uglifyjs > focusin.min.js"
+    "js": "browserify focusin-polyfill.js | uglifyjs > focusin.min.js"
   }
 }
